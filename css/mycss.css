@@ -14,7 +14,7 @@ ul  {
 	color: #363636;
 }
 
-
+b
 .navbar-nav>li>a {
   padding-top:40px;
   padding-bottom: 40px;
@@ -34,18 +34,40 @@ ul  {
   
 }
 
-.bag{
+#bag{
+	height: 25px;
+	width: 45 px;
+	border: 2px solid #302F2E;
 	float: right;
-	padding-right: 20px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	margin-top: 20px;
+	padding: 0px 3px 0px 0px;
+}
+.bag{
+	padding: 0px;
+	margin: 0px;
+	width: 15px;
+	
+	
 }
 
+.bag-text{
+	background: #E1E0DE; 
+	text-align: center; 
+	font-size: 10px;
+	display: inline;
+	height: auto;
+	width: 40px;
+	padding: 5px;
+	padding-right: 0px;
+	margin: auto;
 
-.divider{
-	background: #E1E0DE;
-	color: #5E5D5C;
 }
+
+.verticalLine {
+	display: inline:
+    border-left: thick solid #ff0000;
+}
+
 
 #header{
 	width: 100%
