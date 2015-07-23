@@ -48,10 +48,11 @@ span #divider{
 #bag{
 	height: 27px;
 	width: 168px;
-	border: 2px solid #302F2E;
+	border: 2px solid #E1E0DE;
+	border-radius: 5px;
 	float: right;
 	margin-top: 20px;
-	margin-right: 20px;
+	margin-right: 100px;
 }
 .bag{
 	padding: 10px;
@@ -95,6 +96,18 @@ span #divider{
 	
 }
 
+#left{
+	padding-top: 230px;
+	padding-left: 100px;
+
+}
+
+#right{
+	padding-top: 230px;
+	padding-right: 100px;
+
+}
+
 #header{
 	width: 100%;
 	height: 50px;
@@ -109,7 +122,7 @@ span #divider{
 
 #header .dropdown{
 	float:right;
-	padding-right: 150px;
+	padding-right: 110px;
 	list-style-type:none;
 	text-transform: uppercase;
 }
@@ -120,7 +133,7 @@ span #divider{
 	color: #575757;
 	display: inline;
 	background: rgba(226,226,226,1);
-	padding-left: 20%;
+	padding-left: 16%;
 	padding-bottom: 0px;
 	padding-top: 10px;
 	margin: 0px;
@@ -265,8 +278,8 @@ padding-right: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-	padding-left: 10%;
-	padding-right: 20%;
+	padding-left: 15%;
+	padding-right: 0%;
 	padding-top: 0px;
 	padding-bottom: 0px;
 	margin: 0px;
@@ -347,16 +360,28 @@ footer .footer-col {
     margin-bottom: 50px;
 }
 
+.list-inline{
+	padding-left: 0px;
+	margin-left: 0px;
+	float: left;
+	clear: both;
+}
 
+img .btn-social{
+	padding-left:0px;
+	margin-left: 0px;
+}
 
 .btn-social {
     display: inline-block;
-    width: 30px;
+    width: 25px;
     height: 30px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     text-align: center;
     font-size: 20px;
 	float: left;
+	vertical-align: left;
+	
 }
 
 .btn:focus,
