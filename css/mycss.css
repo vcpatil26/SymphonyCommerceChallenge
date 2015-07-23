@@ -26,13 +26,13 @@ b
 .navbar-brand {
 	  float: left;
 	  height: 35px;
-	  padding-top: 25px;
+	  padding-top: 8px;
 	  padding-bottom: 25px;
 	  font-size: 45px;
 	  line-height: 20px;
 	  font-family: 'PT Serif', serif;
 	  font-variant:small-caps;
-  
+	  
 }	
 
 #navbar-list{
@@ -47,9 +47,9 @@ span #divider{
 }
 
 #bag{
-	height: 27px;
-	width: 168px;
-	border: 2px solid #E1E0DE;
+	height: 24px;
+	width: 165px;
+	border: 1px solid #E1E0DE;
 	border-radius: 5px;
 	float: right;
 	margin-top: 20px;
@@ -123,7 +123,8 @@ span #divider{
 
 #header .dropdown{
 	float:right;
-	padding-right: 110px;
+	font-size: 12px;
+	padding-right: 235px;
 	list-style-type:none;
 	text-transform: uppercase;
 }
@@ -134,7 +135,7 @@ span #divider{
 	color: #575757;
 	display: inline;
 	background: rgba(226,226,226,1);
-	padding-left: 16%;
+	padding-left: 17%;
 	padding-bottom: 0px;
 	padding-top: 10px;
 	margin: 0px;
@@ -279,7 +280,7 @@ padding-right: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-	padding-left: 15%;
+	padding-left: 10%;
 	padding-right: 0%;
 	padding-top: 0px;
 	padding-bottom: 0px;
